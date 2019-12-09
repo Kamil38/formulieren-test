@@ -1,0 +1,51 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+header {
+   background: aliceblue;
+}
+
+header input {
+   height: 2em;
+   line-height: 2em;
+   padding: 1em;
+}
+
+main {
+   color: LightSeaGreen;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2.5em;
+   padding: 2em;
+}
+
+section {
+   background: aliceblue;
+   padding: 2em;
+}
+
+section img {
+   max-width: 100%;
+   clear: right;
+}
+
+#deco {
+   display: none;   /* alleen bij grotere viewports wordt deze getoond */
+}
+
+#validatie {
+   text-align: right;
+}
+
+#opschrijfboekjpg {
+   float: right;
+}
+
+
+
+img{
+   float: right;
+   display: flex;
+}
